@@ -1,0 +1,18 @@
+{
+  "name": "silly-name-cli",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bin": {
+    "silly-name": "./index.js"
+  },
+  "imports": {
+    "#base/*.js": "./lib/base/*.js",
+    "#commands/*.js": "./lib/commands/*.js",
+    "#data/*.json": "./data/*.json"
+  },
+  "scripts": {},
+  "type": "module",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
+}
